@@ -18,8 +18,8 @@
     <SUITE FILE_PATH="coverage/toutiao$toutiao_phantomjs_spider.coverage" NAME="toutiao_phantomjs_spider Coverage Results" MODIFIED="1489032632483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/toutiao$test_request.coverage" NAME="test_request Coverage Results" MODIFIED="1489047874327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/toutiao$toutiao_spider.coverage" NAME="toutiao_spider Coverage Results" MODIFIED="1489026868337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/toutiao$boson_interface.coverage" NAME="boson_interface Coverage Results" MODIFIED="1489044027439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/toutiao$toutiao_spider_article.coverage" NAME="toutiao_spider_article Coverage Results" MODIFIED="1489195100561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/toutiao$toutiao_spider_article.coverage" NAME="toutiao_spider_article Coverage Results" MODIFIED="1489212247590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/toutiao$boson_interface.coverage" NAME="boson_interface Coverage Results" MODIFIED="1489212332736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -55,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="toutiao_spider_article.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="toutiao_spider_article.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/toutiao_spider_article.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64449066">
-              <caret line="78" column="42" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="80" column="28" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
               <folding>
                 <element signature="e#43#53#0" expanded="true" />
               </folding>
@@ -67,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="boson_interface.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="boson_interface.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/boson_interface.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.8024948">
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
                 <element signature="e#43#54#0" expanded="true" />
               </folding>
@@ -133,9 +133,9 @@
         <option value="$PROJECT_DIR$/toutiao_class.txt" />
         <option value="$PROJECT_DIR$/toutiao_phantomjs_spider.py" />
         <option value="$PROJECT_DIR$/toutiao_spider.py" />
-        <option value="$PROJECT_DIR$/boson_interface.py" />
         <option value="$PROJECT_DIR$/test_request.py" />
         <option value="$PROJECT_DIR$/toutiao_spider_article.py" />
+        <option value="$PROJECT_DIR$/boson_interface.py" />
       </list>
     </option>
   </component>
@@ -206,7 +206,7 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.toutiao_spider_article">
+  <component name="RunManager" selected="Python.boson_interface">
     <configuration default="false" name="toutiao_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -494,9 +494,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.toutiao_spider_article" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test_request" />
-        <item index="2" class="java.lang.String" itemvalue="Python.boson_interface" />
+        <item index="0" class="java.lang.String" itemvalue="Python.boson_interface" />
+        <item index="1" class="java.lang.String" itemvalue="Python.toutiao_spider_article" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test_request" />
         <item index="3" class="java.lang.String" itemvalue="Python.toutiao_phantomjs_spider" />
         <item index="4" class="java.lang.String" itemvalue="Python.toutiao_spider" />
       </list>
@@ -514,7 +514,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1692" height="1026" extended-state="1" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17463236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -844,12 +844,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boson_interface.py">
+    <entry file="file://$PROJECT_DIR$/toutiao_phantomjs_spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#43#54#0" expanded="true" />
+            <element signature="e#42#71#0" expanded="true" />
+            <marker date="1489032632465" expanded="true" signature="4299:4363" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
@@ -864,23 +865,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toutiao_phantomjs_spider.py">
+    <entry file="file://$PROJECT_DIR$/toutiao_spider_article.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="80" column="28" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
           <folding>
-            <element signature="e#42#71#0" expanded="true" />
-            <marker date="1489032632465" expanded="true" signature="4299:4363" placeholder="insert into ..." />
+            <element signature="e#43#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toutiao_spider_article.py">
+    <entry file="file://$PROJECT_DIR$/boson_interface.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64449066">
-          <caret line="78" column="42" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.8024948">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
-            <element signature="e#43#53#0" expanded="true" />
+            <element signature="e#43#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
