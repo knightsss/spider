@@ -76,9 +76,10 @@ def get_toutiao_article(article_url_list):
 
         #正文dom
         try:
-            content_dom = soup.find(id='pubtime_baidu')
+            content_dom = soup.find(class_='article-content')
         except:
             content_dom = ""
+        print content_dom
 
 
 if __name__ == '__main__':

@@ -10,12 +10,12 @@ import os
 
 def get_webdriver():
     #谷歌浏览器
-    chrome_driver = os.path.abspath(r"F:\auto_windows\atom-windows\Atom\new_chrome\chromedriver.exe")   #谷歌浏览器位置
-    os.environ["webdriver.chrome.driver"] = chrome_driver            #设置环境变量
-    driver = webdriver.Chrome(chrome_driver)             #webdriver获取
+    # chrome_driver = os.path.abspath(r"F:\auto_windows\atom-windows\Atom\new_chrome\chromedriver.exe")   #谷歌浏览器位置
+    # os.environ["webdriver.chrome.driver"] = chrome_driver            #设置环境变量
+    # driver = webdriver.Chrome(chrome_driver)             #webdriver获取
 
     #phantomjs
-    # driver = webdriver.PhantomJS('E:\\phantomjs\\phantomjs-2.1.1-windows\\phantomjs-2.1.1-windows\\bin\\phantomjs')
+    driver = webdriver.PhantomJS('E:\\phantomjs\\phantomjs-2.1.1-windows\\phantomjs-2.1.1-windows\\bin\\phantomjs')
     return driver
 
 def get_url_args(driver,url):
